@@ -1,0 +1,69 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,a{padding:0;
+	                            margin:0;
+	                            text-decoration:none;  
+	                            font-family:Arial,"微软雅黑";
+	                            font-size:12px;
+	                            list-style:none;}
+/* head begin */
+.head{position:fixed;
+	  left:0;
+	  right:0;
+	  top:0;
+	  z-index:1000;
+	  padding:20px;
+	  height:45px;
+	  background:#E75356;}	
+.head span{display:block;
+           float:right;}
+.head:after{content:" ";
+            clear:both;
+            display:block;}
+.head .dyue{float:left;}
+.dyue a{font-size:40px;
+        color:#F7C9CA;} 
+/* head end */
+/* banner begin */
+.banner{width:100%;
+	    margin-top:85px;
+	    position:relative;
+	    overflow:hidden;
+        background:red;}
+.picture{width:100%;
+         height:400px;}
+.picture img{width:100%;height:400px;}
+.btn{position:absolute;
+	 width:200px;
+     height:10px;
+     left:50%;
+     bottom:2%;
+     margin-left:-100px;}
+.btn span{display:block;
+          width:46px;
+          height:10px;
+          background:rgba(255,255,255,0.7);
+          margin-right:4px;
+          float:left;}
+/* banner end */
+/* container begin */
+.container{width:100%;
+	       height:5000px;
+	       background:#ccc;}
+.contentbox{width:100%;
+            height:100%;}
+.contentbox li{background:purple;
+	           width:33.33%;
+	           height:124px;
+               float:left;}
+/* container end */
+/* footer begin */
+.footer{position:fixed;
+	    left:0;
+	    right:0;
+	    bottom:0;
+	    z-index:1000;
+        height:110px;}
+.footer_nav{width:25%;
+            height:110px;
+            background:pink;
+            float:left;}
+/* footer end */
